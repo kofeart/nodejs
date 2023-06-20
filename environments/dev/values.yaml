@@ -3,7 +3,6 @@ replicaCount: 1
 image:
   repository: us-central1-docker.pkg.dev/terraform-project-2023-388716/nodejs/nodejs
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
   tag: "3.0.0"
 
 ingress:
