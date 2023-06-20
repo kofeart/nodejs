@@ -13,11 +13,11 @@ ingress:
     cert-manager.io/cluster-issuer: letsencrypt-prod-dns01
     acme.cert-manager.io/http01-edit-in-place: "true"
   hosts:
-    - host: prod.danyliv.net
+    - host: nodejsprod.danyliv.net
       paths:
         - path: /
           pathType: ImplementationSpecific
   tls:
    - secretName: nodejs-prod-tls
      hosts:
-       - prod.danyliv.net
+       - nodejsprod.danyliv.net
