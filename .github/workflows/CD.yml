@@ -1,6 +1,6 @@
 env:
   repo:         "https://github.com/kofeart/nodejs.git"
-  app_version:  "1.0.0"
+  app_version:  "3.0.0"
   project_id:   "terraform-project-2023-388716"
   repo_region:  "us-central1"
   app_name:     "nodejs"
